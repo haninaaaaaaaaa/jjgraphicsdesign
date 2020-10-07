@@ -9,11 +9,30 @@ body{
   }
 
   hr.solid {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-top: 1px solid #bbb;
     opacity: 20%;
           }
+
+
+.sidebar-logo{
+  /*width: 200px;
+  display: block;
+  padding: 8px 8px 15px 32px;
+*/
+position:absolute;
+    top: 0;
+    left: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+    width: 200px;
+
+}
+
+#paddings {
+  padding-top: 60px;
+}
 
   /* The sidebar menu */
 .sidebar {
@@ -21,7 +40,7 @@ body{
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
-    top: 0;
+    top: 50;
     left: 0;
     background-color: white; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
@@ -37,7 +56,7 @@ body{
   
   /* The sidebar links */
   .sidebar a {
-    padding: 8px 8px 15px 32px;
+    padding: 10px 8px 15px 32px;
     text-decoration: none;
     font-size: 20px;
     color:#272727;
