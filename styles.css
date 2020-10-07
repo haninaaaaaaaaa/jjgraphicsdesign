@@ -109,3 +109,10 @@ position:absolute;
     
   }  
     /*-------------------sidebar menu end------------------*/
+
+    .position-vid{
+      max-width: 100%;
+      position:absolute;
+      margin: auto;
+  
+    }
