@@ -2,9 +2,20 @@
 <html>
 <head>
     <link rel="stylesheet" href="about.css"-->
+    <!--FOR ICON BAR-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
     <body>
         
+        <!-- ICON BAR RIGHT SIDE -->
+    <div class="icon-bar">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+        <a href="#" class="google"><i class="fa fa-google"></i></a> 
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+    </div>
+
         <!-- SIDE BAR MENU -->
         <div id="mySidebar" class="sidebar" style="font-family: montserrat;">
             <img src="images/LOGO1.png" class="sidebar-logo">
@@ -24,20 +35,35 @@
          
 
           <!-- IMAGE HEADER -->
-         <img src="slogan.jpg" class="responsive-header">
+         <img src="images/slogan.jpg" class="responsive-header">
 
-         <div class="center-block">
+        
           <!-- TEXT ABOUT JJ GRAPHICS-->
-          <h2>Starting up business? Looking for creative ideas? <BR>Don't worry! JJ graphics can help you. Read more!</h2>
-
+          <h2 class="center-block"> Starting up business? Looking for creative ideas? <BR>Don't worry! JJ graphics can help you. Read more!</h2>
 
             <hr class="solid"> 
-        </div>
         
-            <img src="images/header.jpg" class="responsive-header">
-        
+            <img src="images/logodesigns.png" class="responsive-header">
 
-    </body>
+            <h3 class="center-block">JJ Graphics provices branding services, creative campaign, marketing designs and website assets
+                with effective strategies. <br>We offer engaging and eye-catching designs to help you promote and market your brand.
+            </h3>
+
+
+            <!-- FOOTER -->
+            <div class="footer">
+                <p>© Copyright 2020 - JJ Graphics
+                  <a style="padding-left: 20px;" href="#">About</a>
+                  <a style="padding-left: 20px;" href="#">Contact</a>
+                  <a style="padding-left: 20px;" href="#">Privacy Policy</a>
+                  <a style="padding-left: 20px;" href="#">Disclaimer</a> </p>
+               
+              </div>
+              <!-- SCROLL UP BUTTON -->
+              <button onclick="topFunction()" id="myBtn" title="Go to top"><IMG SRC="images/scroll-up.png" style="width: 80px;"></button>
+
+    
+            </body>
 
 
           <script> function openNav() {
@@ -50,6 +76,26 @@
             document.getElementById("mySidebar").style.width = "0";
             document.getElementById("main").style.marginLeft = "0";
           }
+
+          mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+    } else {
+    mybutton.style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
           </script>
 
         
