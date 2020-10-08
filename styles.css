@@ -1,13 +1,20 @@
 body{
     background-color: white;
 }
+
+
+/* HEADER */
 .responsive-header {
     width: 100%;
     height: auto;
     margin: auto;
     width: full;
+    padding-top: 800px;
   }
 
+
+
+  /* DIVIDER */
   hr.solid {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -16,11 +23,10 @@ body{
           }
 
 
+
+
+/* SIDE BAR LOGO */
 .sidebar-logo{
-  /*width: 200px;
-  display: block;
-  padding: 8px 8px 15px 32px;
-*/
 position:absolute;
     top: 0;
     left: 25px;
@@ -30,17 +36,33 @@ position:absolute;
 
 }
 
-#paddings {
+
+
+/*HOME TEXT IN SIDEBAR - TOP PADDING*/
+#home-toppadding {
   padding-top: 60px;
 }
 
-  /* The sidebar menu */
+
+
+/* VIDEO */
+.myVideo{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  width: full;
+  position: absolute;
+}
+
+
+
+  /*------------------ The sidebar menu ----------------------*/
 .sidebar {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
-    top: 50;
+    top: 0;
     left: 0;
     background-color: white; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
@@ -62,7 +84,6 @@ position:absolute;
     color:#272727;
     display: block;
     transition: 0.3s;
-   
   } 
   
   /* When you mouse over the navigation links, change their color */
@@ -86,9 +107,9 @@ position:absolute;
     font-size: 60px;
     cursor: pointer;
     color:#272727;
-    padding: 10px 15px;
     border: none;
-    POSITION: FIXED;
+    position: fixed;
+
   }
   
   .openbtn:hover {
@@ -103,16 +124,11 @@ position:absolute;
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
+  @media screen and (max-height: 100px) {
     .sidebar {padding-top: 20px;}
     .sidebar a {font-size: 18px;}
     
   }  
     /*-------------------sidebar menu end------------------*/
 
-    .myVideo{
-      max-width: 100%;
-      position:absolute;
-      margin: auto;
-  
-    }
+    

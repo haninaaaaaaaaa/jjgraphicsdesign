@@ -4,29 +4,35 @@
     <link rel="stylesheet" href="styles.css"-->
 </head>
     <body>
-      <video autoplay loop class="myVideo">
-        <source src="JJGRAPHICS-VID.mp4" type="video/mp4">
-      </video>
-
+      
+   
     <div id="mySidebar" class="sidebar" style="font-family: montserrat;">
       <img src="images/LOGO1.png" class="sidebar-logo">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" id="paddings" href="index.html">Home</a>
+        <a style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" id="home-toppadding" href="index.html">Home</a>
         <a style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="about.html">About</a>
         <a style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="#">Services</a>
         <a style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="#">Gallery</a>
         <a style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="#">Reviews</a>
         <a style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="#">Contact</a>
     </div>
-      
-      <div id="main">
-        <button class="openbtn" onclick="openNav()">&#9776;</button>
-      </div>    
-      
-      </body>
 
+    <video autoplay loop class="myVideo">
+      <source src="JJGRAPHICS-VID.mp4" type="video/mp4">
+    </video>
 
-      <script>function openNav() {
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">&#9776;</button>
+    </div> 
+    
+    <img src="images/header.jpg" class="responsive-header">
+     
+  
+      
+      
+
+</body>
+      <script> function openNav() {
         document.getElementById("mySidebar").style.width = "250px";
         document.getElementById("main").style.marginLeft = "250px";
       }
