@@ -120,8 +120,11 @@ hr.solid{
     /*----------- FOR ICON BAR ------------------*/
     .icon-bar {
       position: fixed;
-      top: 25%;
+      top: 50%;
       left: 95%;
+      -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);  
       }
       
       .icon-bar a {
