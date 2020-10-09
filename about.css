@@ -120,7 +120,7 @@ hr.solid{
     /*----------- FOR ICON BAR ------------------*/
     .icon-bar {
       position: fixed;
-      top: 50%;
+      top: 25%;
       left: 95%;
       }
       
@@ -130,7 +130,7 @@ hr.solid{
         padding: 12px;
         transition: all 0.3s ease;
         color: white;
-        font-size: 10px;
+        font-size: 20px;
       }
       
       .icon-bar a:hover {
